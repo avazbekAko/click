@@ -51,7 +51,7 @@ require_once 'header.php';
 						</div>
 						<div class="card-footer py-3 border-0">
 							<div class="text-center">
-								Нет аккаунта? <a href="/?Регистрация" class="text-dark">Зарегистрироваться</a>
+								Нет аккаунта? <a href="/reg" class="text-dark">Зарегистрироваться</a>
 							</div>
 						</div>
 					</div>
