@@ -6,6 +6,9 @@ if($route == "test"){
 else if($route == "/"){
     require "controllers/main.php";
 }
+else if($route == "/404"){
+    require "controllers/404.php";
+}
 else if($route == "/reg"){
     require "controllers/register.php";
 }

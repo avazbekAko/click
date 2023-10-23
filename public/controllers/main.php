@@ -3,7 +3,7 @@
 if($method === "POST"){
     $link = $_POST['link'];
     $shorten_link = $_POST['shorten_link'];	
-    // $shorten_link = str_replace("https://avazbek.click/?/", "", $shorten_link);
+    $shorten_link = str_replace($host, "", $shorten_link);
     // $shorten_link = str_replace(".", "_", $shorten_link);
     
     $id = $_COOKIE['id'] ?? null;
