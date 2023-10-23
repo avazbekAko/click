@@ -3,7 +3,7 @@
 -- Drop table
 
 -- DROP TABLE public.users;
-
+DROP TABLE public.users;
 CREATE TABLE public.users (
 	id bigserial NOT NULL,
 	"name" varchar NOT NULL,
@@ -17,7 +17,7 @@ CREATE TABLE public.users (
 -- Drop table
 
 -- DROP TABLE public.links;
-
+DROP TABLE public.links;
 CREATE TABLE public.links (
 	id bigserial NOT NULL,
 	link varchar NOT NULL,
