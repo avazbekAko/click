@@ -5,7 +5,7 @@
 -- DROP TABLE public.users;
 
 CREATE TABLE public.users (
-	id int8 NOT NULL,
+	id bigserial NOT NULL,
 	"name" varchar NOT NULL,
 	email varchar NOT NULL,
 	"password" varchar NOT NULL,
@@ -19,10 +19,10 @@ CREATE TABLE public.users (
 -- DROP TABLE public.links;
 
 CREATE TABLE public.links (
-	id int8 NOT NULL,
+	id bigserial NOT NULL,
 	link varchar NOT NULL,
 	shorten_link varchar NOT NULL,
-	id_user int8 NOT NULL,
+	id_user bigint NOT NULL,
 	status int8 NOT NULL DEFAULT 1,
 	count int8 NOT NULL DEFAULT 0,
 	CONSTRAINT links_pk PRIMARY KEY (shorten_link)
